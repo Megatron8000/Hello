@@ -2,6 +2,6 @@ package com.java.hello.module1;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("HUILO WORLD");
+
     }
 }
