@@ -7,4 +7,8 @@ public class Bus {
     public void showColor(){  //методы класса - описание поведения объекта
         System.out.println(color);
     }
+
+    public void showModel(){
+        System.out.println(model);
+    }
 }
