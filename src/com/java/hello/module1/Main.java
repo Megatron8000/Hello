@@ -12,8 +12,15 @@ public class Main {
         secondBus.color = "Yellow";
         anotherBus.color = "Blue";
 
+        firstBus.model = "MAN";
+        secondBus.model = "MAZ";
+        anotherBus.model = "KAMAZ";
+
+        firstBus.showModel();
         firstBus.showColor();
+        secondBus.showModel();
         secondBus.showColor();
+        anotherBus.showModel();
         anotherBus.showColor();
 
 
