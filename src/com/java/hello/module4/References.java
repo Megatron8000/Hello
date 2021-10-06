@@ -1,6 +1,6 @@
 package com.java.hello.module4;
 
-public class Referenses {
+public class References {
    static String str = "Asshole";
    static String str2 = new String("Asshole");
 
