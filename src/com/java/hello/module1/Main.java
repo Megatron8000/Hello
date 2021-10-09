@@ -16,8 +16,11 @@ public class Main {
         secondBus.model = "MAZ";
         anotherBus.model = "KAMAZ";
 
+        firstBus.route = "41";
+
         firstBus.showModel();
         firstBus.showColor();
+        firstBus.showRoute();
         secondBus.showModel();
         secondBus.showColor();
         anotherBus.showModel();
