@@ -9,5 +9,6 @@ public class Operation {
         result = s1 + s2;
         System.out.println(c);
         System.out.println(result);
+        System.out.println(Math.PI);
     }
 }
