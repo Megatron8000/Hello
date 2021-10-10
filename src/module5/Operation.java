@@ -5,7 +5,9 @@ public class Operation {
     String s1 = "Hot ", s2 = "Dog", result;
 
     public void foo(){
-        c = a + b;
+        c = a + b*2;
         result = s1 + s2;
+        System.out.println(c);
+        System.out.println(result);
     }
 }
