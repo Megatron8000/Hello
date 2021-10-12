@@ -23,5 +23,6 @@ public class Main {
 
         ControlOperations example = new ControlOperations();
         example.foo();
+
     }
 }
