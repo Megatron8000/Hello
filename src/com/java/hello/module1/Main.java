@@ -1,8 +1,10 @@
 package com.java.hello.module1;
 
 //import com.java.hello.module3.Bus;
-import com.java.hello.module5.Operation;
+//import com.java.hello.module5.Operation;
 
+
+import com.java.hello.module6.ControlOperations;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +18,10 @@ public class Main {
               firstBus.showColor();
               firstBus.showRoute();*/
 
-        Operation oper = new Operation();
-        oper.foo();
+       /* Operation oper = new Operation();
+        oper.foo();*/
+
+        ControlOperations example = new ControlOperations();
+        example.foo();
     }
 }
