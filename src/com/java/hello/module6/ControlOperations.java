@@ -7,6 +7,10 @@ public class ControlOperations {
     public void foo(){
         if (value){
             System.out.println("True");
+            a++;
+        }
+        if (a<b){
+            System.out.println("Still true");
         }
         else{
             System.out.println("False");
