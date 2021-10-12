@@ -13,8 +13,11 @@ public class ControlOperations {
         }
 
         }
-        else{
+        else if (a>b){
             System.out.println("False");
+        }
+        else{
+            System.out.println("Drop application");
         }
     }
 
