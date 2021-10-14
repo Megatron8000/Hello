@@ -4,7 +4,9 @@ package com.java.hello.module1;
 //import com.java.hello.module5.Operation;
 
 
-import com.java.hello.module6.ControlOperations;
+//import com.java.hello.module6.ControlOperations;
+
+import com.java.hello.module7.Switch;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,8 +23,11 @@ public class Main {
        /* Operation oper = new Operation();
         oper.foo();*/
 
-        ControlOperations example = new ControlOperations();
-        example.foo();
+        /*ControlOperations example = new ControlOperations();
+        example.foo();*/
+
+        Switch sw = new Switch();
+        sw.foo();
 
     }
 }
