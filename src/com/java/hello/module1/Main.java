@@ -6,7 +6,9 @@ package com.java.hello.module1;
 
 //import com.java.hello.module6.ControlOperations;
 
-import com.java.hello.module7.Switch;
+//import com.java.hello.module7.Switch;
+
+import com.java.hello.module8.Loop;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,8 +28,11 @@ public class Main {
         /*ControlOperations example = new ControlOperations();
         example.foo();*/
 
-        Switch sw = new Switch();
-        sw.foo();
+        /*Switch sw = new Switch();
+        sw.foo();*/
+
+        Loop loop = new Loop();
+        loop.foo();
 
     }
 }
