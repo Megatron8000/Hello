@@ -6,6 +6,7 @@ package com.java.hello.module1;
 //import com.java.hello.module7.Switch;
 //import com.java.hello.module8.Loop;
 
+import com.java.hello.module10.Arrays;
 import com.java.hello.module9.ForLoop;
 
 public class Main {
@@ -32,8 +33,11 @@ public class Main {
         /*Loop loop = new Loop();
         loop.foo();*/
 
-        ForLoop floop = new ForLoop();
-        floop.foo();
+        /*ForLoop floop = new ForLoop();
+        floop.foo();*/
+
+        Arrays array = new Arrays();
+        array.foo();
 
     }
 }
