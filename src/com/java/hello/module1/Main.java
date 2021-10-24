@@ -8,6 +8,8 @@ package com.java.hello.module1;
 //import com.java.hello.module10.Arrays;
 //import com.java.hello.module9.ForLoop;
 
+import com.java.hello.module11.Constructor;
+
 public class Main {
     public static void main(String[] args) {
        /* Bus firstBus = new Bus();
@@ -38,7 +40,8 @@ public class Main {
         /*Arrays array = new Arrays();
         array.foo();*/
 
-
+        Constructor constructor = new Constructor();
+        constructor.foo();
 
     }
 }
