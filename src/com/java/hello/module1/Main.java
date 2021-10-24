@@ -5,9 +5,8 @@ package com.java.hello.module1;
 //import com.java.hello.module6.ControlOperations;
 //import com.java.hello.module7.Switch;
 //import com.java.hello.module8.Loop;
-
-import com.java.hello.module10.Arrays;
-import com.java.hello.module9.ForLoop;
+//import com.java.hello.module10.Arrays;
+//import com.java.hello.module9.ForLoop;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,8 +35,10 @@ public class Main {
         /*ForLoop floop = new ForLoop();
         floop.foo();*/
 
-        Arrays array = new Arrays();
-        array.foo();
+        /*Arrays array = new Arrays();
+        array.foo();*/
+
+
 
     }
 }
