@@ -7,8 +7,9 @@ package com.java.hello.module1;
 //import com.java.hello.module8.Loop;
 //import com.java.hello.module10.Arrays;
 //import com.java.hello.module9.ForLoop;
+//import com.java.hello.module11.Constructor;
 
-import com.java.hello.module11.Constructor;
+import com.java.hello.module12.Modifiers;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,8 +41,13 @@ public class Main {
         /*Arrays array = new Arrays();
         array.foo();*/
 
-        Constructor constructor = new Constructor();
-        constructor.foo();
+       /*Constructor constructor = new Constructor();
+        constructor.foo();*/
+
+        Modifiers modifiers = new Modifiers();
+        modifiers.name = "zalupa";
+
+
 
     }
 }
