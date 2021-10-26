@@ -8,5 +8,6 @@ public class Modifiers {                // public          default          prot
 
     public static void foo() {
             Modifiers modifiers = new Modifiers();
+        System.out.println("Yee");
     }
 }
