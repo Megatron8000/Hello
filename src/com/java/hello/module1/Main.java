@@ -44,8 +44,8 @@ public class Main {
        /*Constructor constructor = new Constructor();
         constructor.foo();*/
 
-        Modifiers modifiers = new Modifiers();
-        modifiers.name = "zalupa";
+       Modifiers.foo();
+
 
 
 
