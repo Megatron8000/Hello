@@ -8,8 +8,9 @@ package com.java.hello.module1;
 //import com.java.hello.module10.Arrays;
 //import com.java.hello.module9.ForLoop;
 //import com.java.hello.module11.Constructor;
+//import com.java.hello.module12.Modifiers;
 
-import com.java.hello.module12.Modifiers;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,8 +45,11 @@ public class Main {
        /*Constructor constructor = new Constructor();
         constructor.foo();*/
 
-       Modifiers.foo();
+        /*Modifiers.foo();*/
 
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        System.out.println("Hello, " + s);
 
 
 
