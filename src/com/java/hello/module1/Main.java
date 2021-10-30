@@ -10,6 +10,8 @@ package com.java.hello.module1;
 //import com.java.hello.module11.Constructor;
 //import com.java.hello.module12.Modifiers;
 
+import com.java.hello.module13.Bus;
+
 import java.util.Scanner;
 
 public class Main {
@@ -47,9 +49,13 @@ public class Main {
 
         /*Modifiers.foo();*/
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        System.out.println("Hello, " + s);
+        System.out.println("Hello, " + s);*/
+
+        Bus bus = new Bus();
+        bus.go();
+        bus.odometer();
 
 
 
