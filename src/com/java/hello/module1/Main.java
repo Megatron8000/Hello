@@ -55,7 +55,8 @@ public class Main {
 
         Bus bus = new Bus();
         bus.go();
-        bus.odometer();
+        System.out.println(bus.odometer());
+
 
 
 
