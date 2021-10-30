@@ -10,8 +10,9 @@ public class Bus {
             System.out.println("WROOOM-WROOOOM");
         }
 
-        public void odometer(){
-            System.out.println("99.666 km");
+        public String odometer(){
+            String str = "99.666 km";
+            return str;
         }
 
 }
