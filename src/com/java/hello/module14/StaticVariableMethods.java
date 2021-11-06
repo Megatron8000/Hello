@@ -10,5 +10,6 @@ public class StaticVariableMethods {
 
             public void show(){
                 System.out.println("Show must go on");
+                foo();
             }
 }
