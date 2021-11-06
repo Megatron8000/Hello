@@ -53,9 +53,12 @@ public class Main {
         String s = scanner.nextLine();
         System.out.println("Hello, " + s);*/
 
-        Bus bus = new Bus();
+        /*Bus bus = new Bus();
         bus.go();
-        System.out.println(bus.odometer());
+        System.out.println(bus.odometer());*/
+
+
+
 
 
 
