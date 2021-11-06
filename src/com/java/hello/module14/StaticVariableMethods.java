@@ -5,7 +5,7 @@ public class StaticVariableMethods {
         public int variable1; // не статические перенменные нельзя использовать в методах класса
 
                 static {
-                    variable = foo();
+                    variable = foo();   //логический блок, как правило используется для инициализации полей класса
                 }
 
             public static int foo(){
