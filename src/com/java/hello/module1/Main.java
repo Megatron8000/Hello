@@ -11,6 +11,7 @@ package com.java.hello.module1;
 //import com.java.hello.module12.Modifiers;
 
 import com.java.hello.module13.Bus;
+import com.java.hello.module14.StaticVariableMethods;
 
 import java.util.Scanner;
 
@@ -58,7 +59,8 @@ public class Main {
         System.out.println(bus.odometer());*/
 
 
-
+        StaticVariableMethods s = new StaticVariableMethods();
+        s.show();
 
 
 
