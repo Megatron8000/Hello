@@ -64,7 +64,7 @@ public class Main {
         s.show();*/
 
         Incapsulation i = new Incapsulation();
-        i.result();
+            System.out.println(i.result());
 
 
 
