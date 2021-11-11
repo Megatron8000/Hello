@@ -64,6 +64,8 @@ public class Main {
         s.show();*/
 
         Incapsulation i = new Incapsulation();
+        i.setA(15);
+        i.setB(354);
             System.out.println(i.result());
 
 
