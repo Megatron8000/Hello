@@ -1,10 +1,12 @@
 package com.java.hello.module15;
 
 public class Incapsulation {
+    private double p = Math.PI;
     private int a, b;
 
-    public int result(){
-        return a+b;
+    public double result(){
+        double c = p * (a + b);
+        return c;
     }
 
     public int getA() {
