@@ -73,7 +73,10 @@ public class Main {
         Music genre0 = Music.ROCK;
         Music genre1 = Music.valueOf(Music.class, "ROCK"); // альтернативный способ создания объекта класса enum
 
-            switch (genre0){
+        System.out.println(genre0.getI());
+        System.out.println(genre0.getS());
+
+           /* switch (genre0){
                 case CLASSIC:
                     System.out.println("Classic");
                     break;
@@ -82,10 +85,9 @@ public class Main {
                     break;
                 case ROCK:
                     System.out.println("Rock");
-
             }
 
-        /*for (Music element: Music.values()){
+        for (Music element: Music.values()){
             System.out.println(element);}*/
         }
     }
