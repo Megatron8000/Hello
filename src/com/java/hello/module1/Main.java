@@ -13,6 +13,7 @@ package com.java.hello.module1;
 import com.java.hello.module13.Bus;
 import com.java.hello.module14.StaticVariableMethods;
 import com.java.hello.module15.Incapsulation;
+import com.java.hello.module16.Music;
 
 import java.util.Scanner;
 
@@ -63,13 +64,15 @@ public class Main {
         /*StaticVariableMethods s = new StaticVariableMethods();
         s.show();*/
 
-        Incapsulation i = new Incapsulation();
+        /*Incapsulation i = new Incapsulation();
         i.setA(15);
         i.setB(354);
-            System.out.println(i.result());
+            System.out.println(i.result());*/
 
 
-
-
+        Music genres = Music.CLASSIC;
+        for (Music element: Music.values()){
+            System.out.println(element);
+        }
     }
 }
