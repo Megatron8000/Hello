@@ -70,9 +70,23 @@ public class Main {
             System.out.println(i.result());*/
 
 
-        Music genres = Music.CLASSIC;
-        for (Music element: Music.values()){
-            System.out.println(element);
+        Music genre0 = Music.ROCK;
+        Music genre1 = Music.valueOf(Music.class, "ROCK"); // альтернативный способ создания объекта класса enum
+
+            switch (genre0){
+                case CLASSIC:
+                    System.out.println("Classic");
+                    break;
+                case POP:
+                    System.out.println("Pop");
+                    break;
+                case ROCK:
+                    System.out.println("Rock");
+
+            }
+
+        /*for (Music element: Music.values()){
+            System.out.println(element);}*/
         }
     }
-}
+
