@@ -14,6 +14,9 @@ import com.java.hello.module13.Bus;
 import com.java.hello.module14.StaticVariableMethods;
 import com.java.hello.module15.Incapsulation;
 import com.java.hello.module16.Music;
+import com.java.hello.module17.Birds;
+import com.java.hello.module17.Crow;
+import com.java.hello.module17.Ostrich;
 
 import java.util.Scanner;
 
@@ -70,13 +73,13 @@ public class Main {
             System.out.println(i.result());*/
 
 
-        Music genre0 = Music.ROCK;
+       /* Music genre0 = Music.ROCK;
         Music genre1 = Music.valueOf(Music.class, "ROCK"); // альтернативный способ создания объекта класса enum
 
         System.out.println(genre0.getI());
         System.out.println(genre0.getS());
 
-           /* switch (genre0){
+            switch (genre0){
                 case CLASSIC:
                     System.out.println("Classic");
                     break;
@@ -89,6 +92,14 @@ public class Main {
 
         for (Music element: Music.values()){
             System.out.println(element);}*/
+
+
+        Ostrich ostrich = new Ostrich();
+        Birds crow = new Crow(); // альтернативный способ создания объекта класса Crow при наследовании
+
+        ostrich.hideHead();
+        ostrich.setName("Kakadoo");
+
         }
     }
 
