@@ -4,7 +4,12 @@ public class Birds {
         private String name;
         private Wings wings;
 
-        public void walk() {
+    public Birds(String name, Wings wings) {
+        this.name = name; //this указывает на использование переменной конкретно этого класса
+        this.wings = wings;
+    }
+
+    public void walk() {
             System.out.println("Walk");
         }
 
