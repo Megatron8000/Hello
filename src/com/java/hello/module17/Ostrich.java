@@ -13,7 +13,8 @@ public class Ostrich extends Birds{  //extends - наследование сво
             public void walk(String s){
                 System.out.println("Walk" + " " + s);
             }
-
+            /* пример динамического полиморфизма,
+            переопределение реализации метода из родительского класса*/
     @Override
     public void walk() {
         System.out.println("an ostrich runs across the savannah");
