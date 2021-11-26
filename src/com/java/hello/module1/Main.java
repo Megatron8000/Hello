@@ -100,6 +100,9 @@ public class Main {
         ostrich.hideHead();
         ostrich.setName("Kakadoo");
 
+        ostrich.walk();
+        ostrich.walk("around");
+
         }
     }
 
