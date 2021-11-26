@@ -19,4 +19,5 @@ public class Ostrich extends Birds{  //extends - наследование сво
     public void walk() {
         System.out.println("an ostrich runs across the savannah");
     }
+
 }
