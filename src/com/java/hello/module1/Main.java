@@ -97,18 +97,17 @@ public class Main {
             System.out.println(element);}*/
 
 
-        Ostrich ostrich = new Ostrich();
+        /* Ostrich ostrich = new Ostrich();
         Birds crow = new Crow(); // альтернативный способ создания объекта класса Crow при наследовании
 
-       /* ostrich.hideHead();
+       ostrich.hideHead();
         ostrich.setName("Kakadoo");
 
         ostrich.walk();
-        ostrich.walk("around");*/
+        ostrich.walk("around");
 
         Common common = new Common();
-        common.foo(ostrich);
-        common.foo(crow);
+        common.foo(ostrich);*/
 
         }
     }
