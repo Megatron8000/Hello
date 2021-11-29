@@ -18,6 +18,8 @@ import com.java.hello.module17.Birds;
 import com.java.hello.module17.Common;
 import com.java.hello.module17.Crow;
 import com.java.hello.module17.Ostrich;
+import com.java.hello.module18.Rifle;
+import com.java.hello.module18.Weapton;
 
 import java.util.Scanner;
 
@@ -109,8 +111,11 @@ public class Main {
         Common common = new Common();
         common.foo(ostrich);*/
 
+        Weapton w = new Rifle();
+        w.setName("Enfield");
 
-
+        System.out.println(w.name);
+        w.foo();
         }
     }
 

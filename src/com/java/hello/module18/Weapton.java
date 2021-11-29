@@ -4,4 +4,12 @@ public abstract class Weapton {  //абстракция - общее обиса�
     public String name;
 
     public abstract void foo(); //абстрактные методы не имеют реализации и должны переопределяться в потомках
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
