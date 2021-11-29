@@ -109,6 +109,8 @@ public class Main {
         Common common = new Common();
         common.foo(ostrich);*/
 
+
+
         }
     }
 
