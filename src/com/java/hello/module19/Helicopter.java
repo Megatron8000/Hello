@@ -1,4 +1,5 @@
 package com.java.hello.module19;
 
-public class Helicopter {
+public abstract class Helicopter extends FlyingObjects{
+
 }
