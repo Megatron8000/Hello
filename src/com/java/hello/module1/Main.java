@@ -111,11 +111,15 @@ public class Main {
         Common common = new Common();
         common.foo(ostrich);*/
 
-        Weapton w = new Rifle();
+        /*Weapton w = new Rifle();
         w.setName("Enfield");
 
         System.out.println(w.name);
         w.foo();
-        }
+        }*/
+
+
+
     }
+}
 
