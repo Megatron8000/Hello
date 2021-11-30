@@ -128,6 +128,7 @@ public class Main {
         test.foo(mi8); //может принимать как родительский класс, так и всех наследников
         test.foo(boeing737);
 
+        test.vertical(mi8);
     }
 }
 
