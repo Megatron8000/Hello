@@ -20,6 +20,9 @@ import com.java.hello.module17.Crow;
 import com.java.hello.module17.Ostrich;
 import com.java.hello.module18.Rifle;
 import com.java.hello.module18.Weapton;
+import com.java.hello.module19.Boeing737;
+import com.java.hello.module19.Mi8;
+import com.java.hello.module19.Test;
 
 import java.util.Scanner;
 
@@ -118,7 +121,12 @@ public class Main {
         w.foo();
         }*/
 
+        Mi8 mi8 = new Mi8();
+        Boeing737 boeing737 = new Boeing737();
 
+        Test test = new Test();
+        test.foo(mi8); //может принимать как родительский класс, так и всех наследников
+        test.foo(boeing737);
 
     }
 }
