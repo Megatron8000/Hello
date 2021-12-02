@@ -134,8 +134,15 @@ public class Main {
         DollySheep dollySheep = new DollySheep();
 
     }
-    public static void foo(DollySheep dollySheep2){
-
+     //Реализация клонирования объекта
+    public static DollySheep foo(DollySheep dollySheep2) {
+        DollySheep sheep = null;
+      try {
+           sheep = (DollySheep) dollySheep2.clone();
+      } catch (CloneNotSupportedException e) {
+          e.printStackTrace();
+      }
+      return sheep;
     }
 }
 
