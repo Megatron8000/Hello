@@ -23,6 +23,7 @@ import com.java.hello.module18.Weapton;
 import com.java.hello.module19.Boeing737;
 import com.java.hello.module19.Mi8;
 import com.java.hello.module19.Test;
+import com.java.hello.module20.DollySheep;
 
 import java.util.Scanner;
 
@@ -130,6 +131,10 @@ public class Main {
 
         test.vertical(mi8);*/
 
+        DollySheep dollySheep = new DollySheep();
+
+    }
+    public static void foo(DollySheep dollySheep2){
 
     }
 }
