@@ -132,6 +132,13 @@ public class Main {
         test.vertical(mi8);*/
 
         DollySheep dollySheep = new DollySheep();
+        DollySheep dollySheep2 = foo(dollySheep);
+
+        dollySheep.setName("Dolly");
+        dollySheep2.setName("Dooly");
+
+        System.out.println(dollySheep.getName());
+        System.out.println(dollySheep2.getName());
 
     }
      //Реализация клонирования объекта
