@@ -121,14 +121,16 @@ public class Main {
         w.foo();
         }*/
 
-        Mi8 mi8 = new Mi8();
+       /* Mi8 mi8 = new Mi8();
         Boeing737 boeing737 = new Boeing737();
 
         Test test = new Test();
         test.foo(mi8); //может принимать как родительский класс, так и всех наследников
         test.foo(boeing737);
 
-        test.vertical(mi8);
+        test.vertical(mi8);*/
+
+
     }
 }
 
