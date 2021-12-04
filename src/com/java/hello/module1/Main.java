@@ -129,7 +129,7 @@ public class Main {
         test.foo(mi8); //может принимать как родительский класс, так и всех наследников
         test.foo(boeing737);
 
-        test.vertical(mi8);*/
+        test.vertical(mi8);
 
         DollySheep dollySheep = new DollySheep();
         DollySheep dollySheep2 = foo(dollySheep);
@@ -149,7 +149,9 @@ public class Main {
       } catch (CloneNotSupportedException e) {
           e.printStackTrace();
       }
-      return sheep;
+      return sheep;*/
+
+
     }
 }
 
