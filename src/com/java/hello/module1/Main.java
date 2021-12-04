@@ -151,6 +151,10 @@ public class Main {
       }
       return sheep;*/
 
+        String s1 = new String("Java");
+        String s2 = "Computer";
+        System.out.println(s2.charAt(5));
+
 
     }
 }
