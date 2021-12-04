@@ -153,7 +153,7 @@ public class Main {
 
         String s1 = new String("Java");
         String s2 = "Computer";
-        System.out.println(s2.hashCode());
+        System.out.println(s2.isEmpty());
 
 
     }
