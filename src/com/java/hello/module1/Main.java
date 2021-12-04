@@ -158,6 +158,12 @@ public class Main {
         for (String element: s3){
             System.out.println(element);
         }
+
+        char [] chars = s2.toCharArray();
+            for (char element: chars){
+                System.out.println(element);
+            }
+
          System.out.println(s2.isEmpty());
 
 
