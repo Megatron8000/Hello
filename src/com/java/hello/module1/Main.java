@@ -151,9 +151,14 @@ public class Main {
       }
       return sheep;*/
 
-        String s1 = new String("Java");
+        String s1 = new String("Hot Java");
         String s2 = "Computer";
-        System.out.println(s2.isEmpty());
+        String [] s3 = s1.split(" "); // строка приводится в массв, разделителем слкжит указаный индекс
+
+        for (String element: s3){
+            System.out.println(element);
+        }
+         System.out.println(s2.isEmpty());
 
 
     }
