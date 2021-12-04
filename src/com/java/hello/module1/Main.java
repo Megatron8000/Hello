@@ -164,6 +164,8 @@ public class Main {
                 System.out.println(element);
             }
 
+        System.out.println(String.copyValueOf(chars)); //приведение массива символов к строке
+
          System.out.println(s2.isEmpty());
 
 
