@@ -168,7 +168,13 @@ public class Main {
 
          System.out.println(s2.isEmpty());*/
 
+            String s1 = new String("Java");
+            System.out.println(s1.concat(" Hot")); //создается новый объект
+            System.out.println(s1);
 
+            StringBuilder stringBuilder = new StringBuilder("Java");
+            System.out.println(stringBuilder.append(" Hot"));
+            System.out.println(stringBuilder);  // продолжается работа с исходным объектом
 
 
 
