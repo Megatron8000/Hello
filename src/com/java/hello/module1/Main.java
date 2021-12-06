@@ -151,7 +151,7 @@ public class Main {
       }
       return sheep;*/
 
-        String s1 = new String("Hot Java");
+        /*String s1 = new String("Hot Java");
         String s2 = "Computer";
         String [] s3 = s1.split(" "); // строка приводится в массв, разделителем слкжит указаный индекс
 
@@ -166,7 +166,10 @@ public class Main {
 
         System.out.println(String.copyValueOf(chars)); //приведение массива символов к строке
 
-         System.out.println(s2.isEmpty());
+         System.out.println(s2.isEmpty());*/
+
+
+
 
 
     }
