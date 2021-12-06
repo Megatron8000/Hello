@@ -176,6 +176,10 @@ public class Main {
             System.out.println(stringBuilder.append(" Hot"));
             System.out.println(stringBuilder);  // продолжается работа с исходным объектом
 
+            System.out.println(stringBuilder.insert(0, 'j'));
+            System.out.println(stringBuilder.deleteCharAt(1));
+            System.out.println(stringBuilder.reverse());
+
 
 
     }
