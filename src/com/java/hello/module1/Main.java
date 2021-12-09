@@ -168,7 +168,7 @@ public class Main {
 
          System.out.println(s2.isEmpty());*/
 
-            String s1 = new String("Java");
+           /* String s1 = new String("Java");
             System.out.println(s1.concat(" Hot")); //создается новый объект
             System.out.println(s1);
 
@@ -178,7 +178,10 @@ public class Main {
 
             System.out.println(stringBuilder.insert(0, 'j'));
             System.out.println(stringBuilder.deleteCharAt(1));
-            System.out.println(stringBuilder.reverse());
+            System.out.println(stringBuilder.reverse());*/
+
+
+
 
 
 
