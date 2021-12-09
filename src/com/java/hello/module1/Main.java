@@ -24,7 +24,7 @@ import com.java.hello.module19.Boeing737;
 import com.java.hello.module19.Mi8;
 import com.java.hello.module19.Test;
 import com.java.hello.module20.DollySheep;
-import com.java.hello.module21.Robot;
+import com.java.hello.module21.*;
 
 import java.util.Scanner;
 
@@ -182,7 +182,12 @@ public class Main {
             System.out.println(stringBuilder.reverse());*/
 
 
-            Robot robot = new Robot();
+        Body body = new Body();
+        SmallHead smallHead = new SmallHead();
+        MediumHead mediumHead = new MediumHead();
+        BigHead bigHead = new BigHead();
+
+            Robot<SmallHead> robot = new Robot<SmallHead>(body,smallHead);
 
 
 

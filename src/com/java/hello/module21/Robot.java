@@ -1,10 +1,10 @@
 package com.java.hello.module21;
 
-public class Robot <T> {
+public class Robot <H> {  // H - параметр имеющий несколько вариантов реализации
     private Body body;
-    private T head;
+    private H head;
 
-    public Robot(Body body, T head) {
+    public Robot(Body body, H head) {
         this.body = body;
         this.head = head;
     }
@@ -17,11 +17,11 @@ public class Robot <T> {
         this.body = body;
     }
 
-    public T getHead() {
+    public H getHead() {
         return head;
     }
 
-    public void setHead(T head) {
+    public void setHead(H head) {
         this.head = head;
     }
 }
