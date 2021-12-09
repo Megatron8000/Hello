@@ -188,6 +188,10 @@ public class Main {
         BigHead bigHead = new BigHead();
 
             Robot<SmallHead> robot = new Robot<SmallHead>(body,smallHead);
+            Robot<BigHead> robot1 = new Robot<BigHead>(body,bigHead);
+
+            robot.getHead().burn();
+            robot1.getHead().cry();
 
 
 
