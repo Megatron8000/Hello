@@ -193,7 +193,7 @@ public class Main {
             robot.getHead().burn();
             robot1.getHead().cry();
 
-
+            
 
     }
 }

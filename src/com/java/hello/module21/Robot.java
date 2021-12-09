@@ -1,6 +1,6 @@
 package com.java.hello.module21;
 
-public class Robot <H> {  // H - параметр имеющий несколько вариантов реализации
+public class Robot <H> {  // H - параметр имеющий несколько вариантов реализации, фиктивный тип, которому при реализации присваивается конкретное зачение
     private Body body;
     private H head;
 
