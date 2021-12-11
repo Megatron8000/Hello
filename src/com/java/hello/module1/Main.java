@@ -25,6 +25,7 @@ import com.java.hello.module19.Mi8;
 import com.java.hello.module19.Test;
 import com.java.hello.module20.DollySheep;
 import com.java.hello.module21.*;
+import com.java.hello.module22.ErrorExample;
 
 import java.util.Scanner;
 
@@ -182,7 +183,7 @@ public class Main {
             System.out.println(stringBuilder.reverse());*/
 
 
-        Body body = new Body();
+       /* Body body = new Body();
         SmallHead smallHead = new SmallHead();
         MediumHead mediumHead = new MediumHead();
         BigHead bigHead = new BigHead();
@@ -192,7 +193,10 @@ public class Main {
 
             robot.getHead().burn();
             robot1.getHead().cry();
-            smallHead.speak();
+            smallHead.speak();*/
+
+        ErrorExample errorExample = new ErrorExample();
+        errorExample.foo();
             
 
     }
