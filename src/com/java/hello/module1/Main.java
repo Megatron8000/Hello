@@ -196,7 +196,7 @@ public class Main {
             smallHead.speak();*/
 
         ErrorExample errorExample = new ErrorExample();
-        errorExample.foo();
+        errorExample.foo1();
             
 
     }
