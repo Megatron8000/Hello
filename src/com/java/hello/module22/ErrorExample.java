@@ -5,6 +5,7 @@ public class ErrorExample {
     public SomeClass someClass;
 
 
+
     public void foo(){
         System.out.println(1/0); //исключение типа RuntimeException, ошибка в арифметической операции
     }
