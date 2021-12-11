@@ -7,6 +7,6 @@ public class SmallHead extends Head{
 
     @Override
     public void speak() {
-        System.out.println("I'm small head? and i speak german");
+        System.out.println("I'm small head, and i speak german");
     }
 }
