@@ -10,27 +10,9 @@ package com.java.hello.module1;
 //import com.java.hello.module11.Constructor;
 //import com.java.hello.module12.Modifiers;
 
-import com.java.hello.module13.Bus;
-import com.java.hello.module14.StaticVariableMethods;
-import com.java.hello.module15.Incapsulation;
-import com.java.hello.module16.Music;
-import com.java.hello.module17.Birds;
-import com.java.hello.module17.Common;
-import com.java.hello.module17.Crow;
-import com.java.hello.module17.Ostrich;
-import com.java.hello.module18.Rifle;
-import com.java.hello.module18.Weapton;
-import com.java.hello.module19.Boeing737;
-import com.java.hello.module19.Mi8;
-import com.java.hello.module19.Test;
-import com.java.hello.module20.DollySheep;
-import com.java.hello.module21.*;
-import com.java.hello.module22.ErrorExample;
 import com.java.hello.module23.PerimeterException;
 import com.java.hello.module23.Square;
 import com.java.hello.module23.SquarePerimeter;
-
-import java.util.Scanner;
 
 public class Main {
 
@@ -201,10 +183,8 @@ public class Main {
        /* ErrorExample errorExample = new ErrorExample();
         errorExample.foo2();*/
 
-
         SquarePerimeter squarePerimeter = new SquarePerimeter();
-        squarePerimeter.getPerimeter("5.6");
-
+        squarePerimeter.getPerimeter("r");
     }
 }
 
