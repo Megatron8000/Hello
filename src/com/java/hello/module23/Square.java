@@ -1,6 +1,6 @@
 package com.java.hello.module23;
 
-public class Sqare {
+public class Square {
     static double side;
 
     public static double getSide() {
@@ -11,6 +11,6 @@ public class Sqare {
         if(side<=0){
             throw new PerimeterException("Side is incorrect"); //проверка валидности значения side
         }
-        Sqare.side = side;
+        Square.side = side;
     }
 }
