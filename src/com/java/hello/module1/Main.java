@@ -26,6 +26,7 @@ import com.java.hello.module19.Test;
 import com.java.hello.module20.DollySheep;
 import com.java.hello.module21.*;
 import com.java.hello.module22.ErrorExample;
+import com.java.hello.module23.Square;
 
 import java.util.Scanner;
 
@@ -197,7 +198,9 @@ public class Main {
 
        /* ErrorExample errorExample = new ErrorExample();
         errorExample.foo2();*/
-            
+
+
+        Square square = new Square();
 
     }
 }
