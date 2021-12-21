@@ -183,8 +183,12 @@ public class Main {
        /* ErrorExample errorExample = new ErrorExample();
         errorExample.foo2();*/
 
-        SquarePerimeter squarePerimeter = new SquarePerimeter();
+      /*  SquarePerimeter squarePerimeter = new SquarePerimeter();
         squarePerimeter.getPerimeter("r");
+
+        Square square = new Square();
+        square.setSide(-1);*/
+
     }
 }
 
