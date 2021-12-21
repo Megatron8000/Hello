@@ -26,14 +26,16 @@ import com.java.hello.module19.Test;
 import com.java.hello.module20.DollySheep;
 import com.java.hello.module21.*;
 import com.java.hello.module22.ErrorExample;
+import com.java.hello.module23.PerimeterException;
 import com.java.hello.module23.Square;
+import com.java.hello.module23.SquarePerimeter;
 
 import java.util.Scanner;
 
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PerimeterException {
        /* Bus firstBus = new Bus();
 
            firstBus.color = "Red";
@@ -200,7 +202,8 @@ public class Main {
         errorExample.foo2();*/
 
 
-        Square square = new Square();
+        SquarePerimeter squarePerimeter = new SquarePerimeter();
+        squarePerimeter.getPerimeter("5.6");
 
     }
 }

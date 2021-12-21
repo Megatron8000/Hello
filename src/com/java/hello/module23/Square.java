@@ -7,10 +7,11 @@ public class Square {
         return side;
     }
 
-    public static void setSide(double side) throws PerimeterException {
+    public static double setSide(double side) throws PerimeterException {
         if(side<=0){
             throw new PerimeterException("Side is incorrect"); //проверка валидности значения side
         }
         Square.side = side;
+        return side;
     }
 }
