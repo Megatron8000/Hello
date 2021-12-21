@@ -195,8 +195,8 @@ public class Main {
             robot1.getHead().cry();
             smallHead.speak();*/
 
-        ErrorExample errorExample = new ErrorExample();
-        errorExample.foo2();
+       /* ErrorExample errorExample = new ErrorExample();
+        errorExample.foo2();*/
             
 
     }
