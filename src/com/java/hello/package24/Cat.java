@@ -1,6 +1,8 @@
 package com.java.hello.package24;
 
-public class Cat {
+import java.io.Serializable;
+
+public class Cat implements Serializable {
     private String name;
 
     public String getName() {
@@ -8,10 +10,6 @@ public class Cat {
     }
 
     public void setName(String name) {
-        this.name = name;
-    }
-
-    public Cat(String name) {
         this.name = name;
     }
 }
