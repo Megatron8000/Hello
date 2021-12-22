@@ -13,6 +13,8 @@ package com.java.hello.module1;
 import com.java.hello.module23.PerimeterException;
 import com.java.hello.module23.Square;
 import com.java.hello.module23.SquarePerimeter;
+import com.java.hello.package24.Cat;
+import com.java.hello.package24.Serialization;
 
 public class Main {
 
@@ -188,6 +190,13 @@ public class Main {
 
         Square square = new Square();
         square.setSide(-1);*/
+
+        Cat cat = new Cat();
+        cat.setName("Thomas");
+
+        Serialization serialization = new Serialization();
+        serialization.serializator(cat);
+
 
     }
 }
