@@ -22,7 +22,7 @@ public class Serialization {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (oos != null){  //при закрытии потока необходимо осуществлять проверку на null
+            if (oos != null) {  //при закрытии потока необходимо осуществлять проверку на null
                 try {
                     oos.close();
                 } catch (IOException e) {
@@ -31,5 +31,42 @@ public class Serialization {
             }
         }
         return flag;
+    }
+
+    public Cat deserialization() {
+        File file = new File("C:\\Users\\Alexander\\IdeaProjects\\cat.data");
+        ObjectInputStream ois = null;
+        Cat cat = null;
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (fis != null) {
+            try {
+                ois = new ObjectInputStream(fis);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                cat = (Cat) ois.readObject();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } finally {
+                if (ois != null) {
+                    try {
+                        ois.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+        }
+        return cat;
     }
 }
