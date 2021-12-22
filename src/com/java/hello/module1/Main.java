@@ -195,8 +195,9 @@ public class Main {
         cat.setName("Thomas");
 
         Serialization serialization = new Serialization();
-        serialization.serializator(cat);
-
+      //  System.out.println(serialization.serializator(cat));
+        System.out.println(serialization.deserialization());
+        System.out.println(cat.getName());
 
     }
 }
