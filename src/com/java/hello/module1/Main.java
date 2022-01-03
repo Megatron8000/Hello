@@ -191,13 +191,13 @@ public class Main {
         Square square = new Square();
         square.setSide(-1);*/
 
-        Cat cat = new Cat();
+        /*Cat cat = new Cat();
         cat.setName("Thomas");
 
         Serialization serialization = new Serialization();
       //  System.out.println(serialization.serializator(cat));
         System.out.println(serialization.deserialization());
-        System.out.println(cat.getName());
+        System.out.println(cat.getName());*/
 
     }
 }
