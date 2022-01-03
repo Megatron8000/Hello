@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args){
 
-        FileWriter fr = null;
+        FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
 
         String s = " Hot Java";
 
         try {
-             fr = new FileWriter("C:\\Users\\Alexander\\IdeaProjects\\Hello\\1.txt", true);
+             fr = new FileWriter("C:\\Users\\Alexander\\IdeaProjects\\Hello\\1.txt", true); // true - флаг который показыает дописываать данные в файл или затереть исходные
         } catch (IOException e) {
             e.printStackTrace();
         }
