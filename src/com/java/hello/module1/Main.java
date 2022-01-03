@@ -8,7 +8,29 @@ public class Main {
 
     public static void main(String[] args){
 
-        FileInputStream fis = null;
+        FileWriter fr = null;
+
+        String s = " Hot Java";
+
+        try {
+             fr = new FileWriter("C:\\Users\\Alexander\\IdeaProjects\\Hello\\1.txt", true);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            fr.write(s);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+       /* FileInputStream fis = null;
         InputStreamReader isr = null;
         int a = 0;
 
@@ -38,8 +60,8 @@ public class Main {
                 isr.close();
             } catch (IOException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
     }
-}
+
 
