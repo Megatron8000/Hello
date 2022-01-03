@@ -13,14 +13,14 @@ public class Main {
         int a = 0;
 
         try {
-             fis = new FileInputStream("D:/1.txt");
+             fis = new FileInputStream("C:\\Users\\Alexander\\IdeaProjects\\Hello\\1.txt");
             try {
                 isr = new InputStreamReader(fis, "UTF-8");
             } catch (UnsupportedEncodingException e) { //проверка поддерживаемой кодировки
                 e.printStackTrace();
             }
             try {
-              while ((a = isr.read()) != -1);{
+              while ((a = isr.read()) != -1){
                     System.out.println((char)a);
                 }
             } catch (IOException e) { //проверка на ошибку чтения
