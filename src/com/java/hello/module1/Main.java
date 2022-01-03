@@ -1,9 +1,7 @@
 package com.java.hello.module1;
 
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
 
@@ -11,12 +9,18 @@ public class Main {
     public static void main(String[] args){
 
         FileInputStream fis = null;
+        InputStreamReader isr = null;
         int a = 0;
 
         try {
              fis = new FileInputStream("D:/1.txt");
             try {
-              while ((a = fis.read()) != -1);{
+                isr = new InputStreamReader(fis, "UTF-8");
+            } catch (UnsupportedEncodingException e) { //проверка поддерживаемой кодировки
+                e.printStackTrace();
+            }
+            try {
+              while ((a = isr.read()) != -1);{
                     System.out.println((char)a);
                 }
             } catch (IOException e) { //проверка на ошибку чтения
