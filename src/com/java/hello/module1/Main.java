@@ -10,11 +10,15 @@ public class Main {
 
     public static void main(String[] args){
 
+        FileInputStream fis = null;
+        int a = 0;
 
         try {
-            FileInputStream fis = new FileInputStream("D:/1.txt");
+             fis = new FileInputStream("D:/1.txt");
             try {
-                fis.read();
+              while ((a = fis.read()) != -1);{
+                    System.out.println((char)a);
+                }
             } catch (IOException e) { //проверка на ошибку чтения
                 e.printStackTrace();
             }
