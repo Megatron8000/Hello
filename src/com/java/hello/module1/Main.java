@@ -28,6 +28,17 @@ public class Main {
             }
         } catch (FileNotFoundException e) { //проверка корректности пути к файлу
             e.printStackTrace();
+        } finally { //закрываем потоки чтения
+            try {
+                fis.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            try {
+                isr.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
