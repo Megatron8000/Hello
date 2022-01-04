@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
+        /*FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
 
         String s = " Hot Java";
 
@@ -27,7 +27,7 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
 
 
        /* FileInputStream fis = null;
@@ -61,6 +61,8 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }*/
+
+
         }
     }
 
