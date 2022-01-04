@@ -2,12 +2,17 @@ package com.java.hello.module1;
 
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
 
     public static void main(String[] args){
 
+
+        List<String> list = new ArrayList<>();
+        list
         /*FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
 
         String s = " Hot Java";
