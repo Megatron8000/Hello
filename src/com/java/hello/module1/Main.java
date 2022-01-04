@@ -10,7 +10,13 @@ public class Main {
     public static void main(String[] args){
 
 
-        List<Person> list = new ArrayList<>();
+
+
+
+
+
+
+       /* List<Person> list = new ArrayList<>();
 
         Person person0 = new Person("White");
         Person person1 = new Person("Black");
@@ -19,10 +25,7 @@ public class Main {
         list.add(person1);
 
 
-        System.out.println(list.get(0));
-
-
-
+        System.out.println(list.get(0));*/
         /*FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
 
         String s = " Hot Java";
@@ -43,8 +46,6 @@ public class Main {
                 e.printStackTrace();
             }
         }*/
-
-
        /* FileInputStream fis = null;
         InputStreamReader isr = null;
         int a = 0;
@@ -76,8 +77,6 @@ public class Main {
             } catch (IOException e) {
                 e.printStackTrace();
             }*/
-
-
         }
     }
 
