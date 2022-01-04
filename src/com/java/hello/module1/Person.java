@@ -16,7 +16,7 @@ public class Person {
     }
 
     @Override
-    public String toString() {
+    public String toString() {  // переопределяем toString чтобы получать строку, а не номер ячейки памяти
         return "Person{" +
                 "name='" + name + '\'' +
                 '}';
