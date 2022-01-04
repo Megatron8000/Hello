@@ -1,7 +1,6 @@
 package com.java.hello.module1;
 
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,8 +10,19 @@ public class Main {
     public static void main(String[] args){
 
 
-        List<String> list = new ArrayList<>();
-        list
+        List<Person> list = new ArrayList<>();
+
+        Person person0 = new Person("White");
+        Person person1 = new Person("Black");
+
+        list.add(person0);
+        list.add(person1);
+
+
+        System.out.println(list.get(0));
+
+
+
         /*FileWriter fr = null;  //Класс позволяющий дописывать данные в файл
 
         String s = " Hot Java";
